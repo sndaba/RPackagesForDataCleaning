@@ -7,7 +7,7 @@ library(readr)
 library(ggplot2)
 library(dplyr)
 
-HP <- read_csv("NYC_2022.csv")
+HP <- read_csv("https://raw.githubusercontent.com/sndaba/RPackagesForDataCleaning/main/NYC_2022.csv")
 View(HP)
 
 HP <- datawizard::data_remove(HP,"latitude") #remove data.frame,column
